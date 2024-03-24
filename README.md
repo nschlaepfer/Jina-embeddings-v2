@@ -1,5 +1,5 @@
-# Playground-v2.5
-This is a Playground-v2.5-1024px-aesthetic model template you can use to import your model on Inferless Platform. Playground v2.5 is a diffusion-based text-to-image generative model, and a successor to Playground v2. Playground v2.5 is the state-of-the-art open-source model in aesthetic quality. Our user studies demonstrate that our model outperforms SDXL, Playground v2, PixArt-α, DALL-E 3, and Midjourney 5.2.
+# Jina-embeddings-v2-base-en
+This is a Jina-embeddings-v2-base-en model template you can use to import your model on Inferless Platform. It's a  english monolingual embedding model with 8192 sequence length. Built on BERT architecture (JinaBERT) supporting symmetric bidirectional variant of ALiBi for extended sequence length. Pretrained on C4 dataset, further trained on Jina AI's collection of 400M+ sentence pairs & hard negatives from diverse domains, meticulously curated.
 
 ---
 ## Prerequisites
@@ -44,9 +44,9 @@ curl --location '<your_inference_url>' \
               "inputs": [
                 {
                   "data": [
-                    "Penguins having dinner"
+                    "Life is so good"
                   ],
-                  "name": "prompt",
+                  "name": "sentences",
                   "shape": [
                     1
                   ],
