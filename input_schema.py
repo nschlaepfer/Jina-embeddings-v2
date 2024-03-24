@@ -1,8 +1,8 @@
 INPUT_SCHEMA = {
-    "prompt": {
+    "sentences": {
         'datatype': 'STRING',
         'required': True,
         'shape': [1],
-        'example': ["Penguins having dinner"]
+        'example': ["What is Deep Learning?"]
     }
 }
