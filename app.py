@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer, util
 
 class InferlessPythonModel:
     def initialize(self):
-        self.model = SentenceTransformer("jinaai/jina-embeddings-v2-base-en",trust_remote_code=True)
+        self.model = SentenceTransformer("jinaai/jina-reranker-v1-tiny-en",trust_remote_code=True)
         # control your input sequence length up to 8192
         self.model.max_seq_length = 1024
 
