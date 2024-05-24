@@ -1,5 +1,8 @@
 from sentence_transformers import SentenceTransformer, util
 
+torch.manual_seed(0)
+torch.use_deterministic_algorithms(True)
+
 class InferlessPythonModel:
     def initialize(self):
         self.model = SentenceTransformer("jinaai/jina-reranker-v1-tiny-en",trust_remote_code=True)
