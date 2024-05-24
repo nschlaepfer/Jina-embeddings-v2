@@ -1,4 +1,5 @@
 from sentence_transformers import SentenceTransformer, util
+import torch
 
 torch.manual_seed(0)
 torch.use_deterministic_algorithms(True)
